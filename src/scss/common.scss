@@ -1,0 +1,23 @@
+
+@mixin flex-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin flex-end{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+@mixin link-style{
+    text-decoration: none;
+    color: #000;
+}
+
+@mixin button-empty{
+    padding: 5px;
+    border: 1px solid blue;
+    border-radius: 5px;
+}

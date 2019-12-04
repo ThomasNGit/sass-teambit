@@ -1,0 +1,59 @@
+header{
+
+    width: 60%;
+    height: 80px;
+    margin: auto;
+    @include flex-between;
+    border-bottom: 1px solid #000;
+
+    .title{
+
+        width: 30%;        
+        h1{
+
+            font-size: 30px;
+            margin-left: 20px;
+        }
+    }
+
+    .navbar{
+
+        width: 60%;
+        margin-right: 20px;
+
+        .nav-list{
+
+        @include flex-end;
+
+        li{
+
+            margin-left: 20px;
+            font-size: 18px;
+
+            a{
+
+                @include link-style;
+            }
+
+            &:last-child{
+
+                @include button-empty;
+
+                a{
+
+                    color: blue;
+                }
+
+                &:hover{
+
+                    background-color: blue;
+
+                    a{
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        }
+    }
+}

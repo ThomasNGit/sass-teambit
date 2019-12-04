@@ -1,0 +1,71 @@
+header {
+  width: 60%;
+  height: 80px;
+  margin: auto;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+          align-items: center;
+  border-bottom: 1px solid #000;
+}
+
+header .title {
+  width: 30%;
+}
+
+header .title h1 {
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+header .navbar {
+  width: 60%;
+  margin-right: 20px;
+}
+
+header .navbar .nav-list {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+header .navbar .nav-list li {
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+header .navbar .nav-list li a {
+  text-decoration: none;
+  color: #000;
+}
+
+header .navbar .nav-list li:last-child {
+  padding: 5px;
+  border: 1px solid blue;
+  border-radius: 5px;
+}
+
+header .navbar .nav-list li:last-child a {
+  color: blue;
+}
+
+header .navbar .nav-list li:last-child:hover {
+  background-color: blue;
+}
+
+header .navbar .nav-list li:last-child:hover a {
+  color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
